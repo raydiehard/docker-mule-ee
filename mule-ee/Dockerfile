@@ -3,7 +3,7 @@
 # Based on:  dockerfile/java (Trusted Java from http://java.com)
 
 FROM                    openjdk:latest
-#FROM                    garthk/unzip:latest
+FROM                    garthk/unzip:latest
 MAINTAINER              Conrad Pöpke <conrad@poepke.info>
 
 # MuleEE installation:
